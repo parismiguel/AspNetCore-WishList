@@ -23,7 +23,7 @@ namespace WishList
             }
             else
             {
-                app.UseExceptionHandler("Home/Error");
+                app.UseExceptionHandler("/Home/Error");
             }
 
             app.UseRouting();
